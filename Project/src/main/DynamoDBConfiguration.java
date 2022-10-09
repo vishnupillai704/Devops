@@ -66,30 +66,3 @@ public class DynamoDBConfiguration {
 }
 
 
-//    @Bean
-//    public DynamoDBMapper dynamoDBMapper() {
-//        return new DynamoDBMapper(buildAmazonDynamoDB());
-//    }
-//
-//    private AmazonDynamoDB buildAmazonDynamoDB() {
-//        return
-//                AmazonDynamoDBClientBuilder
-//                .standard()
-//                .withEndpointConfiguration(
-//                        new AwsClientBuilder.EndpointConfiguration(
-//                                "dynamodb.us-west-2.amazonaws.com",
-//                                "us-west-2"
-//                        )
-//                )
-//                .withCredentials(
-//                        new AWSStaticCredentialsProvider(
-//                                new BasicAWSCredentials(
-//                                        "AKIA5AZO44CTYKF37TXF",
-//                                        "arygSaxUMzaw/Mqpc+BTPRHxYPhmPqppUtV9agtF"
-//                                )
-//                        )
-//                )
-//        .build()
-//    }
-//
-//}
